@@ -57,6 +57,7 @@ canvas {
   color: #000;
   position: absolute;
   z-index: 999;
+  display: none;
 
   -webkit-animation-name: sooth;
   -webkit-animation-duration: 10s;
