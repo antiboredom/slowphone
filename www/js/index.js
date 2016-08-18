@@ -57,8 +57,8 @@ var app = {
 
   vibrate: function() {
     app.vibrateInterval = setInterval(function() {
-      navigator.vibrate(3000);
-    }, 10);
+      navigator.vibrate(900);
+    }, 1000);
   },
 
   playAudio: function(src) {
