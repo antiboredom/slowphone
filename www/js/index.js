@@ -72,7 +72,7 @@ var app = {
 
   batteryStatus: function(status) {
     console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
-    document.querySelector('#battery').textContent = "Level: " + status.level + " isPlugged: " + status.isPlugged;
+    // document.querySelector('#battery').textContent = "Level: " + status.level + " isPlugged: " + status.isPlugged;
     $.get('http://192.168.0.20:8888/battery/', {status: status.level});
   }
 };
